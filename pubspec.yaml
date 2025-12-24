@@ -1,0 +1,96 @@
+name: sip_app
+description: "MMDSmart Call Center Connect - Zero-Hardware Virtual Call Center"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  phosphor_flutter: ^2.1.0
+  
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  
+  # Networking & API
+  dio: ^5.7.0
+  retrofit: ^4.4.1
+  
+  # WebRTC & VoIP
+  flutter_webrtc: ^0.12.6
+  sip_ua: ^1.0.1
+  
+  # Local Storage
+  shared_preferences: ^2.3.3
+  flutter_secure_storage: ^9.2.2
+  hive_flutter: ^1.1.0
+  
+  # Push Notifications
+  firebase_core: ^3.8.0
+  firebase_messaging: ^15.1.5
+  flutter_local_notifications: ^18.0.1
+  
+  # Navigation
+  go_router: ^14.6.2
+  
+  # Utilities
+  intl: ^0.20.1
+  url_launcher: ^6.3.1
+  connectivity_plus: ^6.1.1
+  permission_handler: ^11.3.1
+  uuid: ^4.5.1
+  
+  # Audio
+  just_audio: ^0.9.42
+  audio_session: ^0.1.21
+  
+  # Background Services (for persistent VoIP)
+  flutter_background_service: ^5.0.10
+  
+  # JSON Serialization
+  json_annotation: ^4.9.0
+  freezed_annotation: ^2.4.4
+  
+  # Logging
+  logger: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+  # Code Generation
+  build_runner: ^2.4.13
+  riverpod_generator: ^2.6.2
+  retrofit_generator: ^9.1.5
+  json_serializable: ^6.8.0
+  freezed: ^2.5.7
+
+flutter:
+  uses-material-design: true
+  
+  # Uncomment when assets are added:
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+  #   - assets/sounds/
+  
+  # Uncomment when fonts are added (download from Google Fonts):
+  # fonts:
+  #   - family: Outfit
+  #     fonts:
+  #       - asset: assets/fonts/Outfit-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/Outfit-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Outfit-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Outfit-Bold.ttf
+  #         weight: 700
